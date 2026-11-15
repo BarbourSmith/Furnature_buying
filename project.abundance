@@ -20,20 +20,104 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2536,
-      "y": 0.4386,
+      "x": 0.1687,
+      "y": 0.7775,
+      "uniqueID": "id-23",
+      "name": "Bathroom",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-25",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.1197,
+          "y": 0.5831,
+          "uniqueID": "id-27",
+          "name": "References",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-29",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Import",
+              "x": 0.2229,
+              "y": 0.5606,
+              "uniqueID": "id-31",
+              "fileName": "AbundanceScan-2026-11-15_102923.glb",
+              "name": "Import",
+              "type": "GLB",
+              "repoOwner": "BarbourSmith",
+              "repoName": "Furnature_buying",
+              "SVGwidth": 10
+            },
+            {
+              "atomType": "Import",
+              "x": 0.3677,
+              "y": 0.5183,
+              "uniqueID": "id-33",
+              "fileName": "76166033-5E82-4552-90D0-CADDA21322EF.JPG",
+              "name": "Import",
+              "type": "JPG",
+              "repoOwner": "BarbourSmith",
+              "repoName": "Furnature_buying",
+              "SVGwidth": 10
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.254,
+      "y": 0.4451,
       "uniqueID": "id-4",
       "name": "Entry way",
       "topLevel": false,
       "allAtoms": [
         {
           "atomType": "Import",
-          "x": 0.4453,
-          "y": 0.4982,
+          "x": 0.2533,
+          "y": 0.3887,
           "uniqueID": "id-14",
           "fileName": "Entryway scan.glb",
           "name": "Import",
           "type": "GLB",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Furnature_buying",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Import",
+          "x": 0.3366,
+          "y": 0.6479,
+          "uniqueID": "id-35",
+          "fileName": "3410C02B-AF42-4436-925A-7771FF57FC75.JPG",
+          "name": "Import",
+          "type": "JPG",
           "repoOwner": "BarbourSmith",
           "repoName": "Furnature_buying",
           "SVGwidth": 10

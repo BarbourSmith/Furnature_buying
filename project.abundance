@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6316,
-      "y": 0.7831,
+      "x": 0.6495,
+      "y": 0.4451,
       "uniqueID": "id-1326",
       "name": "Cross-Section",
       "ioValues": [
@@ -6741,14 +6741,14 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1326",
+      "ap2ID": "id-2"
+    },
+    {
       "ap2Name": "Geometry",
       "ap1ID": "id-4",
       "ap2ID": "id-1326"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",

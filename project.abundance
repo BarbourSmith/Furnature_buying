@@ -760,20 +760,11 @@
             {
               "name": "Shape2",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape3",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
       ],
       "allConnectors": [
-        {
-          "ap2Name": "Shape2",
-          "ap1ID": "id-27",
-          "ap2ID": "id-494"
-        },
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-388",
@@ -2054,10 +2045,6 @@
             {
               "name": "Shape3",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Shape4",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -3061,11 +3048,6 @@
         {
           "ap2Name": "Shape3",
           "ap1ID": "id-512",
-          "ap2ID": "id-382"
-        },
-        {
-          "ap2Name": "Shape2",
-          "ap1ID": "id-52",
           "ap2ID": "id-382"
         }
       ],

@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1687,
-      "y": 0.7775,
+      "x": 0.3135,
+      "y": 0.8254,
       "uniqueID": "id-23",
       "name": "Bathroom",
       "topLevel": false,
@@ -72,8 +72,8 @@
             },
             {
               "atomType": "Import",
-              "x": 0.3677,
-              "y": 0.5183,
+              "x": 0.3386,
+              "y": 0.8085,
               "uniqueID": "id-33",
               "fileName": "76166033-5E82-4552-90D0-CADDA21322EF.JPG",
               "name": "Import",
@@ -81,9 +81,70 @@
               "repoOwner": "BarbourSmith",
               "repoName": "Furnature_buying",
               "SVGwidth": 10
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.4477,
+              "y": 0.44,
+              "uniqueID": "id-58",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": -0.15
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0.22
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": -12.23
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5278,
+              "y": 0.5577,
+              "uniqueID": "id-64",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1241
+                }
+              ]
             }
           ],
-          "allConnectors": [],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-31",
+              "ap2ID": "id-58"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-58",
+              "ap2ID": "id-64"
+            }
+          ],
           "fileTypeVersion": 1
         }
       ],
@@ -92,8 +153,32 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.254,
-      "y": 0.4451,
+      "x": 0.2169,
+      "y": 0.4113,
+      "uniqueID": "id-38",
+      "name": "Bench",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-40",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3274,
+      "y": 0.3099,
       "uniqueID": "id-4",
       "name": "Entry way",
       "topLevel": false,
@@ -123,10 +208,95 @@
           "SVGwidth": 10
         },
         {
+          "atomType": "Rotate",
+          "x": 0.4166,
+          "y": 0.44,
+          "uniqueID": "id-46",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0.42
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0.51
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 8.26
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4966,
+          "y": 0.56,
+          "uniqueID": "id-52",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1595
+            }
+          ]
+        },
+        {
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
           "uniqueID": "id-6",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-14",
+          "ap2ID": "id-46"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-46",
+          "ap2ID": "id-52"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.1858,
+      "y": 0.769,
+      "uniqueID": "id-42",
+      "name": "Bathroom shelf",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-44",
           "ioValues": [
             {
               "name": "number or geometry",
